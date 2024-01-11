@@ -20,3 +20,6 @@ alias la='ls -la'
 
 # alias
 alias v='nvim'
+
+# scripts
+alias mkdircd='. ~/scripts/mkdircd'

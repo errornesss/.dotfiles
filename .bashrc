@@ -6,9 +6,10 @@
 # https://man.archlinux.org/man/terminfo.5
 NULL='\[$(tput sgr0)\]'
 RED="\[$(tput setaf 1)\]"
+BLUE="\[$(tput setaf 4)\]"
 CYAN="\[$(tput setaf 6)\]"
 
-# custome prompt
+# custom prompt
 # PS1='[\u@\h \W]\$ '
 PS1="${CYAN}\w ${RED}>${NULL} "
 

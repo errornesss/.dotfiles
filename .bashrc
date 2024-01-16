@@ -24,3 +24,4 @@ alias v='nvim'
 
 # scripts
 alias mkdircd='. ~/scripts/mkdircd'
+alias df='. ~/scripts/df'

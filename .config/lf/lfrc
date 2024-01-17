@@ -1,1 +1,9 @@
 set hidden true
+
+map n down
+map e up
+map y updir
+map o open
+
+map k copy
+map K cut

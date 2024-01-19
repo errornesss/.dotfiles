@@ -19,13 +19,14 @@ return {
       end
       -- map('', api., opts(''))
       map('<leader>en', api.tree.toggle)
-      map('<Enter>', api.node.open.edit, opts('Open'))
       map('a', api.fs.create, opts('Create file/directory'))
       map('d', api.fs.remove, opts('Delete'))
       map('D', api.fs.trash, opts('Trash'))
+      map('o', api.node.open.edit, opts('Open'))
       map('q', api.tree.close, opts('Close'))
       map('R', api.fs.rename, opts('Rename'))
       map('r', api.fs.rename_basename, opts('Rename: Basename'))
+      map('y', api.tree.change_root_to_parent, opts('Up'))
     end
 
     require('nvim-tree').setup({

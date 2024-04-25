@@ -27,6 +27,7 @@ return {
       map('R', api.fs.rename, opts('Rename'))
       map('r', api.fs.rename_basename, opts('Rename: Basename'))
       map('y', api.tree.change_root_to_parent, opts('Up'))
+      map('c', api.tree.change_root_to_node, opts('CD'))
     end
 
     require('nvim-tree').setup({
@@ -37,7 +38,7 @@ return {
       view = {
         cursorline = true,
         side = 'right',
-        -- relativenumber = true,
+        relativenumber = true,
         width = 40,
       },
       actions = {

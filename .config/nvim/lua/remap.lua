@@ -6,6 +6,8 @@ local cmd = vim.cmd
 -- map('n', '<leader>en', vim.cmd.Ex)
 map('n', '<leader><leader>', cmd.so)
 
+map ('n', 'ZW', cmd.write)
+
 -- vim tmux navi
 map('n', '<c-y>', cmd.TmuxNavigateLeft)
 map('n', '<c-n>', cmd.TmuxNavigateDown)

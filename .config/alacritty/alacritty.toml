@@ -31,5 +31,4 @@ bindings = [
 bindings = [
   # { key = "", mods = "", mode = "", action = "" | chars = ""},
   # { key = "", mods = "", mode = "", action = "" },
-  { key = "v", mods = "Control", action = "Paste" },
 ]

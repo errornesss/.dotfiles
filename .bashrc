@@ -34,5 +34,5 @@ alias redshiftr="~/scripts/redshiftr"
 alias vol="~/scripts/vol"
 
 alias mkdircd=". ~/scripts/mkdircd"
-alias df=". ~/scripts/df"
+alias .f=". ~/scripts/df"
 alias create=". ~/scripts/create"

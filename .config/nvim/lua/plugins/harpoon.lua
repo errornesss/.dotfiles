@@ -14,6 +14,6 @@ return {
     map("n", "<C-h>", function() harpoon:list():select(1) end)
     map("n", "<C-t>", function() harpoon:list():select(2) end)
     map("n", "<C-s>", function() harpoon:list():select(3) end)
-    map("n", "<C-g>", function() harpoon:list():select(3) end)
+    map("n", "<C-g>", function() harpoon:list():select(4) end)
   end,
 }

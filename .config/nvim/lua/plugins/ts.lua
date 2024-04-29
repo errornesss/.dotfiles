@@ -1,11 +1,7 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  dependencies = {
-    "nvim-treesitter/nvim-treesitter-textobjects"
-  },
   build = ":TSUpdate",
   config = function()
-    local unruly_textobjects = require("unruly-worker.external.textobjects")
     require("nvim-treesitter.configs").setup({
       ensure_installed = {"lua", },
       sync_install = false,

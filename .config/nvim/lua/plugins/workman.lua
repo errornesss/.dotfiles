@@ -8,7 +8,7 @@ return {
     },
   },
   opts = {
-    skip_list = { "Z", "C-z", "@", "#", "$", "^"},
+    skip_list = { "Z", "C-z", "@", "#", "$", "^", "C-h"},
     booster = {
       easy_swap = true,
       plugin_comment = true,

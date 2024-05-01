@@ -17,3 +17,5 @@ o.so = 16
 o.udf = true
 
 o.cul = true
+
+o.hls = false

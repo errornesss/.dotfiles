@@ -35,5 +35,6 @@ alias vol="~/scripts/vol"
 
 alias mkdircd=". ~/scripts/mkdircd"
 alias .f=". ~/scripts/df"
-alias create=". ~/scripts/create"
-alias e=". ~/scripts/e"
+alias create=". ~/scripts/p_create"
+alias school=". ~/scripts/p_school"
+alias e=". ~/scripts/p_e"

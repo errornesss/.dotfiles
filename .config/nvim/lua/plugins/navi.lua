@@ -1,4 +1,6 @@
 return {
-  'christoomey/vim-tmux-navigator',
-  event = { "VimEnter", },
+  "numtostr/navigator.nvim",
+  config = function()
+    require("Navigator").setup()
+  end
 }

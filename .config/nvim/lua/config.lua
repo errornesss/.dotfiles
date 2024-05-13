@@ -1,4 +1,5 @@
 local o = vim.o
+local g = vim.g
 
 o.gcr = ''
 
@@ -19,3 +20,5 @@ o.udf = true
 o.cul = true
 
 o.hls = false
+
+g.tmux_navigator_no_mappings = 1

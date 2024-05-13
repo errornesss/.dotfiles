@@ -27,6 +27,7 @@ alias la="ls -lah --group-directories-first"
 alias v="nvim"
 alias cpufreq="auto-cpufreq"
 alias neofetch="fastfetch"
+alias brave="brave --incognito & disown"
 
 # scripts
 # alias ()="~/scripts/()"

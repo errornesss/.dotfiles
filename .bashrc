@@ -20,8 +20,8 @@ PS1="\n${MAG}[\u@\h] ${CYA}\w \n${RED}>${NULL} "
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls="ls --color=auto"
-alias la="ls -lah --group-directories-first"
+alias ls="ls -a --color=auto --group-directories-first"
+alias la="ls -lah"
 
 # alias
 alias v="nvim"

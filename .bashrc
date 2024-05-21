@@ -32,7 +32,6 @@ alias brave="brave --incognito & disown"
 # scripts
 # alias ()="~/scripts/()"
 alias bri="~/scripts/brillos"
-alias redshiftr="~/scripts/redshiftr"
 alias vol="~/scripts/vol"
 
 alias mkdircd=". ~/scripts/mkdircd"

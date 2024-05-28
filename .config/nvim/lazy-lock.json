@@ -18,6 +18,5 @@
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
   "telescope.nvim": { "branch": "master", "commit": "5665d93988acfbb0747bdbf4f4cb583bcebc8930" },
-  "unruly-worker": { "branch": "main", "commit": "f07140f87e9ce522d625bbf4104123ff78091662" },
-  "vimtex": { "branch": "master", "commit": "9665df7f51ee24aa81dbd81782e0a22480209753" }
+  "unruly-worker": { "branch": "main", "commit": "f07140f87e9ce522d625bbf4104123ff78091662" }
 }

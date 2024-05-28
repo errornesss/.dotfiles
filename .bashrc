@@ -1,6 +1,4 @@
-#
 # ~/.bashrc
-#
 
 # colours
 # https://man.archlinux.org/man/terminfo.5
@@ -40,3 +38,4 @@ alias .f=". ~/scripts/df"
 alias create=". ~/scripts/p_create"
 alias school=". ~/scripts/p_school"
 alias e=". ~/scripts/p_e"
+

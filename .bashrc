@@ -37,5 +37,5 @@ alias mkdircd=". ~/scripts/mkdircd"
 alias .f=". ~/scripts/df"
 alias create=". ~/scripts/p_create"
 alias school=". ~/scripts/p_school"
-alias e=". ~/scripts/p_e"
 
+. "$HOME/.cargo/env"

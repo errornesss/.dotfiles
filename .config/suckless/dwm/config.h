@@ -6,14 +6,13 @@ static const unsigned int gappx     = 10;       /* gap pixel between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=09" };
-static const char dmenufont[]       = "monospace:size=09";
+static const char *fonts[]          = { "SauceCodePro Nerd Font:size=09" };
+static const char dmenufont[]       = "SauceCodePro Nerd Font:size=09";
 static const char col_black[]       = "#000000";
-static const char col_white[]       = "#fff0f0";
+static const char col_white[]       = "#ffffff";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
 static const char col_main[]        = "#cfcfcf";
 static const char col_hid[]         = "#808080";
 static const char *colors[][3]      = {
@@ -84,7 +83,7 @@ static const Key keys[] = {
 	// { MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	// { MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	// { MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
-	{ Mod4Mask,                       XK_space,  setlayout,      {0} },
+	{ Mod4Mask,                     XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },

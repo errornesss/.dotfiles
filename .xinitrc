@@ -6,7 +6,7 @@ xset r rate 250 40
 redshift &
 sxhkd &
 
-picom &
+# picom &
 nitrogen --restore &
 
 slstatus &

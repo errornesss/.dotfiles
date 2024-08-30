@@ -13,7 +13,7 @@ o.et = true
 
 o.si = true
 
-o.so = 16
+o.so = 8
 
 o.udf = true
 

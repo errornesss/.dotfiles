@@ -13,6 +13,7 @@ return {
     local servers = {
       lua_ls = {},
       clangd = {},
+      glsl_analyzer = {},
     }
     local ensure_installed  = vim.tbl_keys(servers or {})
 

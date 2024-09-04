@@ -16,3 +16,5 @@ XF86AudioRaiseVolume
 XF86AudioPlay
   playerctl play-pause
 
+super + shift + s
+  flameshot gui

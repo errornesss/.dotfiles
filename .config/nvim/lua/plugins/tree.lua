@@ -37,7 +37,7 @@ return {
       hijack_netrw = true,
       view = {
         cursorline = true,
-        side = 'right',
+        -- side = 'right',
         relativenumber = true,
         width = 40,
       },

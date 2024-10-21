@@ -1,3 +1,0 @@
-#!/bin/bash
-
-brillo -S $1

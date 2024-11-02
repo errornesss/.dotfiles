@@ -1,16 +1,12 @@
--- this is a comment
 return {
-  'edeneast/nightfox.nvim',
-
+  "amedoeyes/eyes.nvim",
+  lazy = false,
+  priority = 1000,
   config = function()
-    require('nightfox').setup({
-      options = {
-        transparent = true,
-        styles = {
-          comments = 'italic'
-        },
-      },
+    require("eyes").setup({
+      pallete = "dark",
     })
-    vim.cmd('colorscheme nightfox')
+
+    vim.cmd("colorscheme eyes")
   end,
 }

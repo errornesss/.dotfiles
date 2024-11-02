@@ -11,7 +11,7 @@ normal = { family = "saucecodepro nerd font", style = "regular" }
 
 [colors.primary]
 background = "#000000"
-foreground = "#ffffff"
+foreground = "#e6e6e6"
 [colors.normal]
 black = "#4c4c4c"
 red = "#5b5b5b"

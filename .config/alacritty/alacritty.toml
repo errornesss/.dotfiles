@@ -2,25 +2,34 @@
 WINIT_X11_SCALE_FACTOR = "1"
 
 [window]
-opacity = 1.00
+opacity = 0.70
 padding = { x = 10, y = 10 }
 
 [font]
-size = 10
+size = 12
 normal = { family = "saucecodepro nerd font", style = "regular" }
 
 [colors.primary]
-background = "#16161e"
-foreground = "#8f94b8"
+background = "#000000"
+foreground = "#ffffff"
 [colors.normal]
-black   = "#363b54"
-red     = "#f7768e"
-green   = "#41a6b5"
-yellow  = "#e0af68"
-blue    = "#7aa2f7"
-magenta = "#bb9af7"
-cyan    = "#7dcfff"
-white   = "#787c99"
+black = "#4c4c4c"
+red = "#5b5b5b"
+green = "#696969"
+yellow = "#787878"
+blue = "#868686"
+magenta = "#959595"
+cyan = "#a3a3a3"
+white = "#b2b2b2"
+[colors.bright]
+black = "#4c4c4c"
+red = "#5b5b5b"
+green = "#696969"
+yellow = "#787878"
+blue = "#868686"
+magenta = "#959595"
+cyan = "#a3a3a3"
+white = "#b2b2b2"
 
 [keyboard]
 bindings = [

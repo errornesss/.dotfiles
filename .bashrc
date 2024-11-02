@@ -12,8 +12,9 @@ CYA="\[$(tput setaf 6)\]"
 
 # custom prompt
 # PS1="[\u@\h \W]\$ " # deault
-PS1="${CYA}\w ${RED}>${NULL} "
+# PS1="${CYA}\w ${RED}>${NULL} "
 # PS1="\n${MAG}[\u@\h] ${CYA}\w \n${RED}>${NULL} "
+PS1="\n${GRE}[\u@\h] ${CYA}\w \n${MAG}>${NULL} "
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

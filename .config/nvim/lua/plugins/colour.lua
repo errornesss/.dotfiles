@@ -4,19 +4,19 @@ return {
   priority = 1000,
   config = function()
     require("eyes").setup({
-      extends = {
-        pallete = {
+      extend = {
+        palette = {
           hex00 = "#000000",
-          hex01 = "#1a1a1a",
-          hex02 = "#333333",
-          hex03 = "#4d4d4d",
+          hex01 = "#333333",
+          hex02 = "#444444",
+          hex03 = "#555555",
           hex04 = "#666666",
-          hex05 = "#808080",
-          hex06 = "#999999",
-          hex07 = "#b3b3b3",
-          hex08 = "#cccccc",
-          hex09 = "#e6e6e6",
-          hex10 = "#ffffff",
+          hex05 = "#777777",
+          hex06 = "#888888",
+          hex07 = "#999999",
+          hex08 = "#aaaaaa",
+          hex09 = "#bbbbbb",
+          hex10 = "#cccccc",
         },
       }
     })

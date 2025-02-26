@@ -1,0 +1,16 @@
+[Unit]
+Description=Kanata keyboard remapper
+Documentation=https://github.com/jtroo/kanata
+
+[Service]
+Environment=PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin
+# CPUSchedulingPolicy=rr
+# CPUSchedulingPriority=99
+IOSchedulingclass=realtime
+# Nice=-20
+Type=simple
+ExecStart=/usr/bin/sh -c 'exec $$(which kanata) --cfg $${HOME}/.config/kanata/kanata.kbd'
+Restart=no
+
+[Install]
+WantedBy=default.target

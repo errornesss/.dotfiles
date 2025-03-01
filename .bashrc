@@ -1,3 +1,4 @@
+export EDITOR=nvim
 
 # colours
 # https://man.archlinux.org/man/terminfo.5

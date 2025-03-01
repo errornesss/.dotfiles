@@ -18,6 +18,9 @@ alias ls="ls --group-directories-first --color=auto -a"
 alias tree="tree -aC"
 
 alias v="nvim"
-
 eval "$(thefuck --alias)"
 alias fk="fuck"
+
+alias school=". ~/scripts/e_school"
+alias create=". ~/scripts/e_create"
+

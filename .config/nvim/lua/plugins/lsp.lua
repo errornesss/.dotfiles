@@ -17,10 +17,12 @@ return {
         require("mason").setup()
         require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
         require("mason-lspconfig").setup({
-            function(server_name)
-                local server = servers[server_name] or {}
-                require("lspconfig")[server_name].setup(server)
-            end
+            handlers = {
+                function(server_name)
+                    local server = servers[server_name] or {}
+                    require("lspconfig")[server_name].setup(server)
+                end
+            }
         })
     end,
 }

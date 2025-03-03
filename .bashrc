@@ -15,7 +15,7 @@ PS1="${CYA}\w ${YEL}>${NUL} "
 export MANPAGER="nvim +Man!"
 
 alias ls="ls --group-directories-first --color=auto -a"
-alias tree="tree -aC"
+alias tree="tree -aC --dirsfirst"
 
 alias v="nvim"
 eval "$(thefuck --alias)"

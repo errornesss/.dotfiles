@@ -21,6 +21,8 @@ alias v="nvim"
 eval "$(thefuck --alias)"
 alias fk="fuck"
 
+alias restart="~/scripts/restart"
+
 alias school=". ~/scripts/e_school"
 alias create=". ~/scripts/e_create"
 

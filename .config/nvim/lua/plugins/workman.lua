@@ -1,7 +1,7 @@
 return {
     "slugbyte/unruly-worker",
     opts = {
-        skip_list = { "z", "Z", "=", },
+        skip_list = { "z", "Z", "=", "<C-a>" },
         booster = {
             easy_swap = true,
             plugin_comment = true,

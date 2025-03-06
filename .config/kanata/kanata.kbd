@@ -1,29 +1,29 @@
 (defcfg process-unmapped-keys yes)
 
 (defsrc
-    caps
-    a s d f
-    j k l ;
+   caps
+   a s d f
+   j k l ;
 )
 
 (defvar t 150 h 150)
 
 (defalias
-    escctrl (tap-hold 0 150 esc bspc)
+  escctrl (tap-hold 0 150 esc bspc)
 
-    a (tap-hold $t $h a lmet)
-    s (tap-hold $t $h s lalt)
-    d (tap-hold $t $h d lsft)
-    f (tap-hold $t $h f lctl)
+  a (tap-hold $t $h a lmet)
+  s (tap-hold $t $h s lalt)
+  d (tap-hold $t $h d lsft)
+  f (tap-hold $t $h f lctl)
 
-    j (tap-hold $t $h j lctl)
-    k (tap-hold $t $h k lsft)
-    l (tap-hold $t $h l lalt)
-    ; (tap-hold $t $h ; lmet)
+  j (tap-hold $t $h j lctl)
+  k (tap-hold $t $h k lsft)
+  l (tap-hold $t $h l lalt)
+  ; (tap-hold $t $h ; lmet)
 )
 
 (deflayer base
-    @escctrl
-    @a @s @d @f
-    @j @k @l @;
+  @escctrl
+  @a @s @d @f
+  @j @k @l @;
 )

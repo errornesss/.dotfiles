@@ -1,4 +1,4 @@
 require("relative-motions"):setup({
-    show_numbers = "relative_absolute",
-    show_motion = true,
+  show_numbers = "relative_absolute",
+  show_motion = true,
 })

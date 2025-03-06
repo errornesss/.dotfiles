@@ -1,4 +1,5 @@
 export EDITOR=nvim
+export COPYER=xclip
 
 # colours
 # https://man.archlinux.org/man/terminfo.5

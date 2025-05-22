@@ -1,5 +1,5 @@
 return {
-  {
+--[[   {
     "rcasia/neotest-java",
     dependencies = {
       "mfussenegger/nvim-jdtls",
@@ -23,5 +23,5 @@ return {
         ["neotest-java"] = {},
       },
     },
-  },
+  }, ]]
 }

@@ -6,20 +6,20 @@
    j k l ;
 )
 
-(defvar t 150 h 150)
+(defvar h 250 t 135)
 
 (defalias
   escctrl (tap-hold 0 150 esc bspc)
 
-  a (tap-hold $t $h a lmet)
-  s (tap-hold $t $h s lalt)
-  d (tap-hold $t $h d lsft)
-  f (tap-hold $t $h f lctl)
+  a (tap-hold $h $t a lmet)
+  s (tap-hold $h $t s lalt)
+  d (tap-hold $h $t d lsft)
+  f (tap-hold $h $t f lctl)
 
-  j (tap-hold $t $h j lctl)
-  k (tap-hold $t $h k lsft)
-  l (tap-hold $t $h l lalt)
-  ; (tap-hold $t $h ; lmet)
+  j (tap-hold $h $t j lctl)
+  k (tap-hold $h $t k lsft)
+  l (tap-hold $h $t l lalt)
+  ; (tap-hold $h $t ; lmet)
 )
 
 (deflayer base

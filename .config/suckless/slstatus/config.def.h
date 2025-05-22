@@ -66,9 +66,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function, format, argument */
-    // { run_command, " | %s", "pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'" },
-    { alsa_master_vol, " | %s", NULL},
-    { battery_state, " | %s", "BAT1" }, // /sys/class/power_supply/<name>
-    { battery_perc, " %s%%", "BAT1" }, // /sys/class/power_supply/<name>
-	{ datetime, " |[%s]", "%y/%m/%d|%T" },
+  // { run_command, " | %s", "pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'" },
+  { alsa_master_vol, " | %s", NULL},
+  { battery_state, " | %s", "BAT1" }, // /sys/class/power_supply/<name>
+  { battery_perc, " %s%%", "BAT1" }, // /sys/class/power_supply/<name>
+  { datetime, " |[%s]", "%y/%m/%d|%T" },
 };

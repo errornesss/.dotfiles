@@ -60,6 +60,10 @@ return {
           git_placement = "after",
         },
       },
+      git = {
+        enable = true,
+        ignore = false,
+      },
     })
   end,
 }

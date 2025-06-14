@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "saucecodepro nerd font:pixelsize=12:antialias=true:autohint=true";
+static char *font = "saucecodepro nerd font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 8;
 
 /* How to align the content in the window when the size of the terminal
@@ -112,6 +112,9 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 2;
+
+/* bg opacity */
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {

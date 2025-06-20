@@ -20,5 +20,6 @@
   "ouroboros": { "branch": "master", "commit": "f528c0baf0b872b37036c166a144abcfc4752ec9" },
   "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
-  "unruly-worker": { "branch": "main", "commit": "67da92a5ff90f7fc55dd2ce57a830b3781128a00" }
+  "unruly-worker": { "branch": "main", "commit": "67da92a5ff90f7fc55dd2ce57a830b3781128a00" },
+  "vimtex": { "branch": "master", "commit": "e10525a5aa65e2544f11e680dd81c77fba800248" }
 }

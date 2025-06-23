@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.maplocalleader = ","
 local map = vim.keymap.set
 local cmd = vim.cmd
 
@@ -17,3 +18,7 @@ map("n", "<C-o>", function() require("Navigator").right() end)
 map("n", "<leader>x", ":!chmod +x %<CR>")
 
 map("n", "<leader>c", "viw~w")
+
+map("n", "<leader>le", "o<Escape>k")
+map("n", "<leader>ln", "o<Escape>")
+map("n", "<leader>lc", "cc<Escape")

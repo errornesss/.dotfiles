@@ -21,4 +21,9 @@ map("n", "<leader>c", "viw~w")
 
 map("n", "<leader>le", "o<Escape>k")
 map("n", "<leader>ln", "o<Escape>")
-map("n", "<leader>lc", "cc<Escape")
+map("n", "<leader>lc", "cc<Escape>")
+
+map("n", "N", ":m .+1<CR>==")
+map("n", "E", ":m .-2<CR>==")
+map("v", "N", ":m '>+1<CR>gv=gv")
+map("v", "E", ":m '<-2<CR>gv=gv")

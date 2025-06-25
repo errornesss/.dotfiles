@@ -19,9 +19,9 @@ map("n", "<leader>x", ":!chmod +x %<CR>")
 
 map("n", "<leader>c", "viw~w")
 
-map("n", "<leader>le", "o<Escape>k")
-map("n", "<leader>ln", "o<Escape>")
-map("n", "<leader>lc", "cc<Escape>")
+map("n", "<leader>ne", "o<Escape>k")
+map("n", "<leader>nn", "o<Escape>")
+map("n", "<leader>nc", "cc<Escape>")
 
 map("n", "N", ":m .+1<CR>==")
 map("n", "E", ":m .-2<CR>==")

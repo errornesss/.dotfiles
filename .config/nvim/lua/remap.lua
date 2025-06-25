@@ -27,3 +27,6 @@ map("n", "N", ":m .+1<CR>==")
 map("n", "E", ":m .-2<CR>==")
 map("v", "N", ":m '>+1<CR>gv=gv")
 map("v", "E", ":m '<-2<CR>gv=gv")
+
+map("n", "<leader>a", "<C-a>")
+map("n", "<leader>d", "<C-x>")

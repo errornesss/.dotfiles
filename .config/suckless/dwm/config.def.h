@@ -107,7 +107,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 
-	{ ALTKEY,                       XK_b,      spawn,          {.v = (const char*[]){ "brave", NULL }} },
+	{ ALTKEY,                       XK_b,      spawn,          SHCMD("~/scripts/dm_browse") },
 	{ ALTKEY,                       XK_d,      spawn,          {.v = (const char*[]){ "discord", NULL }} },
 };
 

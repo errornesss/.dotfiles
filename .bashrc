@@ -26,3 +26,4 @@ alias restart="~/scripts/restart"
 
 alias school=". ~/scripts/e_school"
 alias create=". ~/scripts/e_create"
+alias mkcd=". ~/scripts/mkcd"

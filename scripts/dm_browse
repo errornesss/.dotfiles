@@ -2,7 +2,5 @@
 
 browser="qutebrowser"
 
-in=$(printf "" | dmenu -p "browse: ")
-if [ -n "$in" ]; then
-  $browser "$in"
-fi
+in=$(printf "" | dmenu -p "browse: ") || exit 0
+$browser "$in"

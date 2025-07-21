@@ -5,6 +5,8 @@ local cmd = vim.cmd
 
 map("n", "<leader><leader>", cmd.so)
 
+map("n", "<leader>en", ":Oil<CR>")
+
 map("n", "ZW", cmd.w)
 
 map("n", "<C-d>", "<C-d>zz")

@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 0;       /* gap pixel between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 0;        /* 0 means bottom bar */
+static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "saucecodepro nerd font:size=9" };
 static const char dmenufont[]       = "saucecodepro nerd font:size=9";
 static const char col_black[]       = "#000000";
@@ -108,7 +108,8 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 
 	{ ALTKEY,                       XK_b,      spawn,          SHCMD("~/scripts/dm_browse") },
-	{ ALTKEY,                       XK_d,      spawn,          {.v = (const char*[]){ "discord", NULL }} },
+	{ ALTKEY,                       XK_c,      spawn,          {.v = (const char*[]){ "discord", NULL }} },
+	{ ALTKEY,                       XK_e,      spawn,          {.v = (const char*[]){ "pcmanfm", NULL }} },
 };
 
 /* button definitions */

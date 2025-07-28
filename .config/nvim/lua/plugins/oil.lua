@@ -7,6 +7,7 @@ return {
       ["y"] = { "actions.parent", mode = "n" },
       ["o"] = "actions.select",
       ["q"] = { "actions.close", mode = "n" },
+      ["r"] = "actions.refresh"
     },
     view_options = {
       show_hidden = true,

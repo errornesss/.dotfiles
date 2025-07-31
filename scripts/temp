@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -r ~/repos/temp/temp.$1 $2

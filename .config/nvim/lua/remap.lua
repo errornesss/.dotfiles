@@ -19,16 +19,18 @@ map("n", "<C-o>", function() require("Navigator").right() end)
 
 map("n", "<leader>x", ":!chmod +x %<CR>")
 
-map("n", "<leader>c", "viw~w")
+map("n", "<leader>c", "viw~el")
+map("i", "<C-c>", "<Esc>viw~ea")
 
 map("n", "<leader>ne", "o<Escape>k")
 map("n", "<leader>nn", "o<Escape>")
 map("n", "<leader>nc", "cc<Escape>")
 
-map("n", "<c-N>", ":m .+1<CR>==", { silent = true, })
-map("n", "<c-E>", ":m .-2<CR>==", { silent = true, })
-map("v", "<c-N>", ":m '>+1<CR>gv=gv")
-map("v", "<c-E>", ":m '<-2<CR>gv=gv")
+-- map("n", "<C-N>", ":m .+1<CR>==", { silent = true, })
+-- map("n", "<C-E>", ":m .-2<CR>==", { silent = true, })
+map("v", "<C-n>", ":m '>+1<CR>gv=gv")
+map("v", "<C-e>", ":m '<-2<CR>gv=gv")
 
 map("n", "<leader>a", "<C-a>")
 map("n", "<leader>d", "<C-x>")
+

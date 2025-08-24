@@ -1,5 +1,5 @@
 return {
-  "jakemason/ouroboros",
+  "jakemason/ouroboros.nvim",
   dependencies = "nvim-lua/plenary.nvim",
   ft = { "c", "h", },
   config = function()

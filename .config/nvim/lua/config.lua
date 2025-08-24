@@ -1,3 +1,4 @@
+local g = vim.g
 local o = vim.o
 
 o.guicursor = ""
@@ -18,3 +19,5 @@ o.cursorline = true
 o.hlsearch = false
 
 o.undofile = true
+
+g.c_syntax_for_h = true

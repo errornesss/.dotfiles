@@ -109,7 +109,6 @@ static const Key keys[] = {
 
 	{ ALTKEY,                       XK_b,      spawn,          SHCMD("~/scripts/dm_browse") },
 	{ ALTKEY,                       XK_c,      spawn,          {.v = (const char*[]){ "discord", NULL }} },
-	{ ALTKEY,                       XK_e,      spawn,          {.v = (const char*[]){ "pcmanfm", NULL }} },
 };
 
 /* button definitions */

@@ -107,6 +107,13 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 
+  { MODKEY|ALTKEY,                XK_1,      spawn,          SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle") },
+  { MODKEY|ALTKEY,                XK_2,      spawn,          SHCMD("pactle set-sink-volume @DEFAULT_SINK@ -2%") },
+  { MODKEY|ALTKEY,                XK_3,      spawn,          SHCMD("pactle set-sink-volume @DEFAULT_SINK@ +2%") },
+  { MODKEY|ALTKEY,                XK_4,      spawn,          SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle") },
+  { MODKEY|ALTKEY,                XK_5,      spawn,          SHCMD("brillo -qU 5") },
+  { MODKEY|ALTKEY,                XK_6,      spawn,          SHCMD("brillo -qA 5") },
+
 	{ ALTKEY,                       XK_b,      spawn,          SHCMD("~/scripts/dm_browse") },
 	{ ALTKEY,                       XK_c,      spawn,          {.v = (const char*[]){ "discord", NULL }} },
 };

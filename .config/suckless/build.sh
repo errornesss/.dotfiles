@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo cp config.def.h config.h
-sudo make clean install
+sudo make config.h
+sudo make install clean 

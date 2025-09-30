@@ -58,7 +58,6 @@ static const char unknown_str[] = "n/a";
  * uid                 UID of current user             NULL
  * uptime              system uptime                   NULL
  * username            username of current user        NULL
- * alsa_master_vol     ALSA Master device volume       NULL
  * vol_perc            OSS/ALSA volume in percent      mixer file (/dev/mixer)
  *                                                     NULL on OpenBSD/FreeBSD
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
@@ -66,10 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function, format, argument */
-  // { run_command, " | %s", "pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'" },
   { ram_used, " | %s", NULL},
   { cpu_perc, " | %s%%", NULL },
-  { alsa_master_vol, " | %s", NULL },
+  { err_vol, " | %s", NULL },
   { battery_state, " | %s", "BAT0" }, // /sys/class/power_supply/<name>
   { battery_perc, " %s%%", "BAT0" }, // /sys/class/power_supply/<name>
   { datetime, " |[%s]", "%y/%m/%d|%T" },

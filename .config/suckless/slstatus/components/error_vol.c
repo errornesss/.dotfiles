@@ -10,7 +10,12 @@ const char *err_vol(const char *unused) {
   p = popen("pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'", "r");
   char vol[5];
   fgets(vol, sizeof(vol), p);
-  vol[3] = (vol[2] == '%')? '\0' : '%';
+  for (int i = 0; i < sizeof(vol); i++) {
+    if (vol[i] == '%') {
+      vol[i + 1] = '\0';
+      break;
+    }
+  }
   pclose(p);
 
   return bprintf("%s", vol);

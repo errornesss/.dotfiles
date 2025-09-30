@@ -65,9 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function, format, argument */
-  { ram_used, " | %s", NULL},
-  { cpu_perc, " | %s%%", NULL },
-  { err_vol, " | %s", NULL },
+  { ram_used, " | ram: %s", NULL},
+  { cpu_perc, " | cpu: %s%%", NULL },
+  { err_vol, " | vol: %s", NULL },
   { battery_state, " | %s", "BAT0" }, // /sys/class/power_supply/<name>
   { battery_perc, " %s%%", "BAT0" }, // /sys/class/power_supply/<name>
   { datetime, " |[%s]", "%y/%m/%d|%T" },

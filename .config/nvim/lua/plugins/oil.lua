@@ -7,8 +7,9 @@ return {
       ["y"] = { "actions.parent", mode = "n" },
       ["o"] = "actions.select",
       ["q"] = { "actions.close", mode = "n" },
-      ["r"] = "actions.refresh"
+      ["<c-r>"] = "actions.refresh"
     },
+    use_default_keymaps = false,
     view_options = {
       show_hidden = true,
     },

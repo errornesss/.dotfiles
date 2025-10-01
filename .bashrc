@@ -19,11 +19,9 @@ alias ls="ls --group-directories-first --color=auto -a"
 alias tree="tree -aC --dirsfirst"
 
 alias v="nvim"
-eval "$(thefuck --alias)"
-alias fk="fuck"
 
 alias restart="~/scripts/restart"
+alias mkcd=". ~/scripts/mkcd"
 
 alias school=". ~/scripts/e_school"
 alias create=". ~/scripts/e_create"
-alias mkcd=". ~/scripts/mkcd"

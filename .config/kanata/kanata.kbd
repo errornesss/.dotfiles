@@ -6,7 +6,7 @@
    j k l ;
 )
 
-(defvar h 250 t 135)
+(defvar h 250 t 150)
 
 (defalias
   escctrl (tap-hold 0 150 esc bspc)

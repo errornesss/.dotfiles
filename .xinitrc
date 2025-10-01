@@ -5,7 +5,7 @@ sxhkd &
 redshift &
 
 nitrogen --restore &
-picom &
+# picom &
 
 slstatus &
 exec dwm

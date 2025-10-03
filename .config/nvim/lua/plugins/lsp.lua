@@ -10,8 +10,8 @@ return {
   config = function()
     local servers = {
       lua_ls = {},
-      clangd = {},
-      glsl_analyzer= {},
+      -- clangd = {},
+      -- glsl_analyzer= {},
     }
     local ensure_installed = vim.tbl_keys(servers or {})
 

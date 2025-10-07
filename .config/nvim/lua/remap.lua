@@ -34,3 +34,8 @@ map("v", "<C-e>", ":m '<-2<CR>gv=gv")
 map("n", "<leader>a", "<C-a>")
 map("n", "<leader>d", "<C-x>")
 
+map("n", ";", ":<C-f>")
+map("n", ":", ":<C-f>i")
+
+map("n", "<leader>bc", ":<C-f>O!bc -l <<< \"\"<Esc>i")
+map("v", "<leader>bc", "y:<C-f>O!bc -l <<< \"\"<Esc>P")

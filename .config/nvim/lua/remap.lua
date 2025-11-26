@@ -5,7 +5,7 @@ local cmd = vim.cmd
 
 map("n", "<leader><leader>", cmd.so)
 
-map("n", "<leader>en", ":Oil<CR>", { silent = true, })
+map("n", "<leader>en", ":Fyler<CR>", { silent = true, })
 
 map("n", "ZW", cmd.w)
 

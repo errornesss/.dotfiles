@@ -5,9 +5,10 @@ local cmd = vim.cmd
 
 map("n", "<leader><leader>", cmd.so)
 
-map("n", "<leader>en", ":Fyler<CR>", { silent = true, })
+map("n", "<leader>en", ":Oil<CR>", { silent = true, })
 
-map("n", "ZW", cmd.w)
+map("n", "ZC", cmd.w)
+map("n", "ZX", cmd.q)
 
 map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
@@ -22,9 +23,9 @@ map("n", "<leader>x", ":!chmod +x %<CR>")
 map("n", "<leader>c", "viw~el")
 map("i", "<C-c>", "<Esc>viw~ea")
 
-map("n", "<leader>ne", "o<Escape>k")
+--[[ map("n", "<leader>ne", "o<Escape>k")
 map("n", "<leader>nn", "o<Escape>")
-map("n", "<leader>nc", "cc<Escape>")
+map("n", "<leader>nc", "cc<Escape>") ]]
 
 -- map("n", "<C-N>", ":m .+1<CR>==", { silent = true, })
 -- map("n", "<C-E>", ":m .-2<CR>==", { silent = true, })

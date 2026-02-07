@@ -21,3 +21,5 @@ o.hlsearch = false
 o.undofile = true
 
 g.c_syntax_for_h = true
+
+o.wrap = false
